@@ -43,5 +43,5 @@ scikit-learn | matplotlib | pandas | numpy
 `output.csv` contains one row per classifier with the best training accuracy and test accuracy:
 
 # Part II (Curse of Dimensionality) 
-curse.py generates data from a standard Gaussian distribution across dimensions d=1 to d=100, picks a random query point, and tracks the DMAX/DMIN ratio as dimensionality grows. As d increases, the nearest and furthest points become roughly the same distance away, which makes KNN increasingly unreliable.
+`curse.py` generates data from a standard Gaussian distribution across dimensions d=1 to d=100, picks a random query point, and tracks the DMAX/DMIN ratio as dimensionality grows. As d increases, the nearest and furthest points become roughly the same distance away, which makes KNN increasingly unreliable.
 - The report also covers research on why high dimensionality can sometimes work in your favor, including cases in text classification and kernel methods where more dimensions actually help separability.
